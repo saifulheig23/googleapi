@@ -13,9 +13,8 @@ const app = express();
 app.use(cors({
   origin: [
     "http://localhost:5173",
-    "https://sports-facility-booking-platform-client-khaki.vercel.app",
-    "https://sports-facility-booking-platform-client-766j.vercel.app",
-  ],
+    "https://google.labontest.tech"
+   ],
  credentials: true,
 })
 );
