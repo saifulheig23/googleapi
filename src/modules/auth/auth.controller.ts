@@ -89,7 +89,7 @@ const forgotPassword = asyncHandler(async (req, res) => {
   const { email } = req.body;
 
   // const hostUrl = `${req.protocol}://${req.get('host')}`
-  const hostUrl = `http://localhost:5173`;
+  const hostUrl = `https://google.labontest.tech`;
 
   const result = await authService.forgotPassword(email, hostUrl);
 
